@@ -61,7 +61,7 @@ function iCity(event) {
 
 
 function inputCity(city) {
-  var requestedUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=9b1192177659da66737e8df6341c92d7&units=metric'
+  var requestedUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&limit=1&appid=9b1192177659da66737e8df6341c92d7&units=metric'
 
   fetch(requestedUrl)
     .then(function (response) {
