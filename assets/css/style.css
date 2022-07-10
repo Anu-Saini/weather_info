@@ -1,0 +1,135 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+ }
+
+h1{
+  margin: 0;
+  color: whitesmoke;
+}
+
+.normal{
+  background-color: green;
+}
+.moderate{
+  background-color: bisque;
+  }
+.severe {
+  background-color: red;
+}
+
+.hero {
+  background-color: blue;
+  background-image: linear-gradient(to right, blue, skyblue);
+  color: antiquewhite;
+  width: 100%;
+  padding: 15px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#maincard {
+  width: 100%;
+  min-height: 0px;
+  padding: 25px;
+  margin: 10px;
+  }
+.nextdays{
+  background-color:rgb(127, 197, 240) ;
+}
+ul {
+  list-style-type: none;
+  display: block;
+  margin-block-start:0 ;
+  padding-inline-start: 0px;
+}
+
+.custom-card {
+  margin: 0px;
+  width: auto;
+  display: contents;
+  flex-wrap: inherit;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.btn{
+margin-left: 30px;
+}
+
+.btn:hover {
+  color: var(--primary);
+  background-color: var(--tertiary);
+  transform: translate(0, 0);
+  box-shadow: 2px 2px var(--dark);
+}
+
+/* CARDS */
+.card {
+  margin: 0 0 20px 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.recentcities {
+  height: 100%;
+  border-radius: 10px;
+  border:2px solid grey;
+  margin-left: 25px;
+  background-color: rgb(127, 197, 240);
+  text-align: center;
+}
+.card-body {
+  padding: 2.5%;
+}
+
+/* FORM */
+
+
+.form-label {
+   margin: 0 0 0 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 3%;
+  margin: 5px 0;
+ }
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.col-2 {
+  flex: 0 0 calc(100% * 2 / 12 - 2%);
+}
+
+.col-3 {
+  flex: 0 0 calc(100% * 3 / 12 - 2%);
+}
+
+.col-9 {
+  flex: 0 0 calc(100% * 9 / 12 - 2%);
+}
+
+.col-12 {
+  flex: 0 0 100%;
+}

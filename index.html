@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" ></script>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>All Weather app </title>
+</head>
+<body>
+
+        <body>
+                <header class="hero">
+                  <h3 id="header"> Weather Dashboard </h3>
+                </header>
+             <main class="flex-row">
+                  <div class="col-3">
+                    <div class="card">
+                          <form id="city-form" class="card-body">
+                          <input name="cityname" placeholder="Search" id="cityname" type="text" autofocus="true" class="form-input">
+                          <button type="submit" class="btn btn-outline-secondary">Search</button>
+                           </form>
+                        </div>
+              
+                    <div class="card">
+                       <h5 class="card-header" id="card">History</h5>
+                         <div id="citylist">
+                          <ul id="city-list">  </ul>  
+                         </div>    
+                    </div>
+                  </div>
+
+              <section class="col-9">
+                 <div id="maincard" > 
+                                   
+                 </div>
+                    <h5>Showing next 5 day: </h5>
+                                           
+                       <!-- bottom container-->
+                          <div class="row" >
+                            <div class="col-2 custom-card" id="day1">
+                             
+                            </div>
+                            <div class="col-2 custom-card" id="day2">
+                             </div>
+                            <div class="col-2 custom-card" id="day3">
+                            </div>
+                            <div class="col-2 custom-card" id="day4">
+                              
+                            </div>
+                            <div class="col-2 custom-card" id="day5">
+                              
+                            </div>
+
+                          </div>
+                </section>
+                                   
+                <div class="col-12 hero">
+                    <h5>weather forecast being presented with help of Openweather API </h5>
+                    <div id="city-container" class="list-group"></div>
+                  </div>
+                </main>
+              
+                <script src="./assets/js/script.js"></script>       
+
+</body>
+</html>
